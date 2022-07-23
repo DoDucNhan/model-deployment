@@ -1,6 +1,6 @@
 Flask-RESTful
 flask-cors
-tensorflow
+tensorflow-cpu
 pandas
 Flask
 numpy 
