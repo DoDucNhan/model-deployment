@@ -94,4 +94,4 @@ class ReturnMidi(Resource):
 api.add_resource(ReturnMidi, "/")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
