@@ -49,7 +49,7 @@ CORS(app)
 api = Api(app)
 
 
-model = tf.keras.models.load_model("musicLSTM", custom_objects={'mse_with_positive_pressure': mse_with_positive_pressure})
+model = tf.keras.models.load_model("music-lstm.h5", custom_objects={'mse_with_positive_pressure': mse_with_positive_pressure})
 
 
 temperature = 2.0
